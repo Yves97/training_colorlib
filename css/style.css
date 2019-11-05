@@ -63,8 +63,10 @@ header{
 
 .navbar{
     width:100% !important;
-    background: #fff !important;
+	background: #fff !important;
+	padding: 25px;
 }
+
 .navbar-nav .nav-link{
     color: var(--fourth-color) !important;
     transition:0.5s;
