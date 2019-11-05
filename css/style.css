@@ -14,7 +14,11 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing:inherit;
+}
+
+html{
+	box-sizing: border-box;
 }
 
 body{
@@ -25,6 +29,7 @@ a{
     text-decoration: none;
     color: black !important;
 }
+
 a:hover{
     text-decoration: none !important;
 }
@@ -544,6 +549,44 @@ header{
 /**FOOTER*****************************************/
 
 
-#footer{
-	padding-top:80px;
+footer{
+	padding:100px !important;
+	background: var(--third-color);
+	color: #fff;
+}
+
+#footer ul li{
+	list-style: none;
+	
+}
+
+#footer ul li a{
+	color: #8892a0 !important;
+}
+
+#footer h4, #footer h5{
+	padding-bottom: 20px;
+}
+
+.copy{
+	background: #05274b;
+	margin: 0;
+	padding: 20px;
+	width: 100%;
+	color: #fff !important;
+	position: relative;
+	top: 0;
+	text-align: center;
+}
+
+.img-foot img{
+	margin-bottom: 7px;
+	padding: 0;
+}
+
+.info{
+	padding: 7px;
+}
+.info p{
+	margin:0;
 }
