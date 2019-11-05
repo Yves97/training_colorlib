@@ -1,1 +1,1 @@
-# training_colorlib
+# exercice de reproduction d'un template colorlib%
