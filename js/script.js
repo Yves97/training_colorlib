@@ -13,7 +13,7 @@ $(document).ready(function(){
                 nav: false
             },
             768: {
-                items: 3,
+                items: 2,
                 nav: false
             },
             1000: {
