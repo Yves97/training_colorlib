@@ -223,8 +223,10 @@ header{
     top: 37%;
     width: 45px; 
     height: 30px;  
-    background: var(--secondary-color);
+	background-color: var(--secondary-color);
+	background: url('../images/left-arrow.svg') no-repeat;
 }
+
 
 .owl-next{
     position: absolute; 
@@ -236,7 +238,8 @@ header{
     top: 37%; 
     width: 45px;  
     height: 30px;  
-    background: var(--secondary-color);
+	background-color: var(--secondary-color);
+	background: url('../images/right-arrow.svg') no-repeat;
 }
 
 
